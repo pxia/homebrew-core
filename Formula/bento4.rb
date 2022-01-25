@@ -21,8 +21,6 @@ class Bento4 < Formula
   end
 
   depends_on xcode: :build
-  # artifact does not produce arm64 native binaries
-  depends_on arch: :x86_64
   depends_on "python@3.10"
 
   on_linux do
